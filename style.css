@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@200&family=Rubik+Maps&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kodchasan';
+
+}
+
+#firstPage img {
+    height: 90vh;
+    width: 100%;
+}
+
+#firstPage h1 {
+    position: absolute;
+    top: 35vh;
+    left: 15vh;
+    font-size: 10vh;
+    font-weight: bold;
+    color: rgb(68, 9, 19);
+}
+
+#firstPage button {
+    position: absolute;
+    top: 50vh;
+    left: 50vh;
+    width: 20vh;
+    border-radius: 5em;
+    padding: 20px;
+    font-size: larger;
+    background-color: hsl(186, 83%, 48%);
+    border: none;
+    box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.477);
+}
+
+#firstPage button:hover {
+    background-color: hsl(186, 83%, 12%);
+    color: aliceblue;
+    box-shadow: 10px 10px 10px 2px hsla(0, 0%, 100%, 0.477);
+}
+
+nav {
+    position: fixed;
+    height: 10vh;
+    width: 100%;
+    box-shadow: 0px 0px 10px 0px black;
+    background-color: hsl(187, 77%, 46%);
+}
+
+nav #navContent {
+    padding: 25px;
+    text-align: center;
+    color: rgb(3, 28, 48);
+}
+
+footer {
+    padding-top: 100px;
+    background-color: black;
+    height: 20vh;
+}
+
+footer p {
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    font-size: larger;
+}
